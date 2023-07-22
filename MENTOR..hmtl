@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        * {box-sizing: border-box;}
+        
+        body { 
+          margin-top: 0;
+          font-family: 'Gill Sans', 'Calibri Light', 'Trebuchet MS', sans-serif, sans-serif;
+          color: rgb(31, 64, 79);
+          background-image: url(https://cdn.pixabay.com/photo/2022/12/22/21/37/doodles-7673301_1280.jpg);
+          background-color: rgb(16, 2, 90, 0.536); 
+        }
+        
+        p  {
+          font-family: 'Calibri Light', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          font-size: 105%;
+          padding-left: 20px;
+          padding-top: 5px;
+          padding-bottom: 5px;
+        }
+        
+        h1  {
+          font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+          font-size: 120%;
+          padding-left: 20px;
+          font-weight: bold;
+          padding-top: 5px;
+          padding-bottom: 5px;
+        }
+        
+        .header {
+          overflow: hidden;
+          border-radius: 10px;
+          border-color: #745712;
+          background-color: #efd597;
+          padding: 20px;
+        }
+        
+        .header a.logo {
+          margin-top: 0px;
+          margin-bottom: 0px;
+          margin-left: 10px;
+          padding-top: 0px;
+          padding-bottom: 0px;
+        }
+        
+        .header a {
+          float: left;
+          font-family: "Calibri Light", sans-serif;
+          color: rgb(115, 88, 1);
+          text-align: center;
+          padding: 12px;
+          text-decoration: none;
+          font-size: 18px; 
+          line-height: 25px;
+          border-radius: 4px;
+          padding: 35px;
+        }
+        
+        .header a:hover {
+          background-color: #ddca9f;
+          color: rgb(25, 78, 103);
+        }
+        
+        .header a.active {
+          background-color: dodgerblue;
+          color: white;
+          height: 50%;
+        }
+
+        table { 
+    table-layout:fixed;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 3px;
+}
+
+td { 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    word-wrap: break-word;
+}
+        
+        .header-right {
+          float: right;
+        }
+        
+        @media screen and (max-width: 500px) {
+          .header a {
+            float: none;
+            display: block;
+            text-align: left;
+          }
+          
+          .header-right {
+            float: none;
+          }
+        }
+        </style>
+</head>
+<body>
+
+  <div class="header">
+    <a href="HOME.html" class="logo"><img src="https://cdn.discordapp.com/attachments/1127942782510698560/1132337400257990656/acadlogo.png"></a>
+    <div class="header-right">
+      <a class="active" href="HOME.html">Home</a>
+      <a href="BOOKS.html">Books</a>
+      <a href="TEACHERS.html">Mentors</a>
+      <a href="SCHOLARSHIPS.html">Scholarships</a>
+      <a href="COUNSELLING.html">Counselling</a>
+      <a href="CONTACT.html">Contact</a>
+    </div>
+  </div>
+
+<p></p>
+
+<div class="color-box" style="background-color: #eed8a5";>
+    <table width="100%"; >
+        <tr>
+          <th>Name</th>
+          <th>Credentials</th>
+          <th>Subjects</th>
+          <th>Language</th>
+          <th>Time zone</th>
+          <th>Fee/hr</th>
+        </tr>
+        <tr>
+          <td>Abdul</td>
+          <td>Lulusan S1 dan S2 di Universitas Intenasional Afrika Sudan</td>
+          <td>Arabic</td>
+          <td>Indonesian</td>
+          <td>GMT+7</td>
+          <td>IDR 50,000</td>
+        </tr>
+        <tr>
+            <td>Tanti</td>
+            <td>Graduate of the Master of Civil Engineering majoring in Geotechnical Engineering with experience since 2018, has handled 35+ projects. </td>
+            <td>Software</td>
+            <td>English</td>
+            <td>GMT+7</td>
+            <td>IDR 200,000</td>
+          </tr>
+          <tr>
+            <td>Warseno</td>
+            <td>Master's degree accounting background, have AB Bravet Tax training from the Indonesian Institute of Accountants and experience as a Professional Practitioner in the Fields of Accounting, Taxation, Drilling Company, Interior Design, Project Design, Retail Company</td>
+            <td>Accounting</td>
+            <td>English</td>
+            <td>GMT+7</td>
+            <td>IDR 80,000</td>
+          </tr>
+          <tr>
+            <td>Faridah</td>
+            <td>Has been a tutor for 5 years with 5 star reviews on websites</td>
+            <td>Chemistry</td>
+            <td>English</td>
+            <td>GMT+7</td>
+            <td>Negotiable</td>
+          </tr>
+          <tr>
+            <td>Khairunissa</td>
+            <td>Studied English for 11 years and has experience in participating in English speech competitions at the national level</td>
+            <td>English</td>
+            <td>English</td>
+            <td>GMT+7</td>
+            <td>IDR 75,000</td>
+          </tr>
+          <tr>
+            <td>Assyahidah</td>
+            <td>Graduated from Al-Azhar University, Cairo</td>
+            <td>Islamic studies</td>
+            <td>Indonesian</td>
+            <td>GMT+7</td>
+            <td>IDR 25,000</td>
+          </tr>
+          <tr>
+            <td>Ivan William</td>
+            <td>ABRSM level Grade 5+</td>
+            <td>Music</td>
+            <td>English</td>
+            <td>GMT+7</td>
+            <td>IDR 250,000</td>
+          </tr>
+          <tr>
+            <td>Vonny Ratna</td>
+            <td>Graduated from Fine Arts ITB in 1998. In 2016, graduated with a Master of Art from the IKJ Postgraduate Program. Specializes in Painting, Drawing, Fine Arts</td>
+            <td>Art and Painting</td>
+            <td>English</td>
+            <td>GMT+7</td>
+            <td>IDR 90,000</td>
+          </tr>
+          <tr>
+            <td>Saraswati</td>
+            <td>Graduate in Business Economics Law and PERADI Advocate Certification, Corporate Legal, Licensing, Company Operations, Human Resources Department, Agreement Drafting & Review, Company SOP</td>
+            <td>Business</td>
+            <td>Indonesia</td>
+            <td>GMT+7</td>
+            <td>IDR 50,000</td>
+          </tr>
+          <tr>
+            <td>Serena</td>
+            <td>Bachelors degree in Applied Mathematics & Statistics and Neuroscience from Johns Hopkins University (one of the top 10 colleges)</td>
+            <td>Mathematics</td>
+            <td>English</td>
+            <td>GMT-5</td>
+            <td>Negotiable</td>
+          </tr>
+      </table>
+  </div>
+</body>
+</html>
